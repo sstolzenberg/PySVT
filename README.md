@@ -47,6 +47,7 @@ in connection to their Pinyin pronunciation and their English meaning.
 Install https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
 
 Open "Start"->"Programs"->"Anaconda3 (64-Bit)
+
 ```conda install pandas numpy xlrd openpyxl```
 
 press "y" and "Enter"
@@ -54,13 +55,17 @@ exit
 
 (Whenever you want to start the Vocab_Trainer)
 Open "Start"->"Programs"->"Anaconda3 (64-Bit)
-```cd C:\Users/.../Downloads\Vocab_Trainer (whereever you extracted Vocab_Trainer.zip)```
+
+```cd C:\Users/.../Downloads\Vocab_Trainer```
+
+(whereever you extracted Vocab_Trainer.zip)
 
 ```python Vocab_Trainer.py --infilename input/HSK-1-Full-Vocabulary-List --col2show "English" --col2ask "Pinyin" --register 0 --is_first_run 1```
 
 i.e.:
 the Python program execute a python scripts names Vocab_Trainer.py with some command line options
 for an explanation of the Vocabulary Trainer, type in
+
 ```python Vocab_Trainer.py --help```
 
 # Installation Instructions in for MacOS (or similarly, Linux)
@@ -69,8 +74,8 @@ for example into ~/miniconda3
 
 GoTo "Applications"->"Utilities"
 and place the "Terminal" app onto your app board (bottom of the screen, e.g. next to "Finder")
-execute "Terminal"
-type in
+execute "Terminal" type in
+
 ```cd ~/miniconda3
 conda init
 exit
@@ -84,6 +89,7 @@ press "y" and "Enter"
 exit
 
 (Whenever you want to start the Vocab_Trainer)
+
 ```cd ~/Downloads\Vocab_Trainer (whereever you extracted Vocab_Trainer.zip)```
 
 ```python Vocab_Trainer.py --infilename input/HSK-1-Full-Vocabulary-List --col2show "English" --col2ask "Chinese" --register 0 --is_first_run 1```
