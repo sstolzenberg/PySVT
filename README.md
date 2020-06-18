@@ -60,7 +60,7 @@ Open "Start"->"Programs"->"Anaconda3 (64-Bit)
 
 (whereever you extracted Vocab_Trainer.zip)
 
-```python Vocab_Trainer.py --infilename input/HSK-1-Full-Vocabulary-List --col2show "English" --col2ask "Pinyin" --register 0 --is_first_run 1```
+```python Vocab_Trainer.py --infilename input/simple_vocab_list --col2show "English" --col2ask "Pinyin" --register 0 --is_first_run 1```
 
 i.e.:
 the Python program execute a python scripts names Vocab_Trainer.py with some command line options
@@ -92,7 +92,7 @@ exit
 
 ```cd ~/Downloads\Vocab_Trainer (whereever you extracted Vocab_Trainer.zip)```
 
-```python Vocab_Trainer.py --infilename input/HSK-1-Full-Vocabulary-List --col2show "English" --col2ask "Chinese" --register 0 --is_first_run 1```
+```python Vocab_Trainer.py --infilename input/simple_vocab_list --col2show "English" --col2ask "Chinese" --register 0 --is_first_run 1```
 
 i.e.:
 the Python program execute a python scripts names Vocab_Trainer.py with some command line options
