@@ -1,10 +1,11 @@
 # PySVT
-PySVT - a Smarter Vocabulary Trainer for Python
+a Smarter Vocabulary Trainer for Python
 
 # Licence
 
 Copyright (c) 2020 Sebastian Stolzenberg
 for any feedback or questions, please contact the author:
+
 Sebastian Stolzenberg <ss629@cornell.edu>
 
 This software has been thoroughly tested, but comes with no warranty.
@@ -14,12 +15,17 @@ It is freely available under the L-GPL license.
 
 PySVT - a Smarter Vocabulary Trainer for Python:
 This Vocabulary Trainer uses a vocabulary list (in .xlsx format)
+
 and an internal register system
+
 (as in https://upload.wikimedia.org/wikipedia/commons/7/7a/Leitner_system_de.png)
+
 to efficiently learn vocabularies that are difficult to remember.
 
 The flexible command-line interface allows to focus the study
+
 on different parts of a vocabulary:
+
 E.g., a Mandarin vocabulary consists of
 - the Chinese character,
 - its pronunciation in the Pinyin language, and
@@ -28,21 +34,20 @@ Memorizing all three parts of many vocabularies at once may be less efficient
 because inter-vocabulary similarities may be difficult to grasp
 
 I have personally started to learn Mandarine by just learning the Pinyin
-pronunciation first, and now the "Pinyin<->English" meaning.
+pronunciation first, and later the "Pinyin<->English" meaning.
 In the final step, I will also memorize the Chinese characters
 in connection to their Pinyin pronunciation and their English meaning.
 
 # Content
-README.md   - this documentation file
-PySVT.py    - Python script for Python 3
-input       - optional input folder containing an exemplary vocabulary list (.xlsx)
+- README.md   - this documentation file
+- PySVT.py    - Python script for Python 3
+- input       - optional input folder containing an exemplary vocabulary list (.xlsx)
 
 # Installation Instructions in for Windows 10
 Install https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
 Open "Start"->"Programs"->"Anaconda3 (64-Bit)
 conda install pandas numpy xlrd openpyxl
 press "y" and "Enter"
-
 exit
 
 (Whenever you want to start the Vocab_Trainer)
