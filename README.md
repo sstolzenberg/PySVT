@@ -97,4 +97,5 @@ exit
 i.e.:
 the Python program execute a python scripts names Vocab_Trainer.py with some command line options
 for an explanation of the Vocabulary Trainer, type in
+
 ```python Vocab_Trainer.py --help```
