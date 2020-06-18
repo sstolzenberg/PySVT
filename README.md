@@ -43,6 +43,8 @@ in connection to their Pinyin pronunciation and their English meaning.
 - PySVT.py    - Python script for Python 3
 - input       - optional input folder containing an exemplary vocabulary list (.xlsx)
 
+To learn Chinese Mandarine, I recommend searching the internet for "HSK Excel", which will lead you to complete Excel vocabulary lists
+
 # Installation Instructions in for Windows 10
 Install https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
 
