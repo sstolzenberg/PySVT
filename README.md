@@ -55,20 +55,20 @@ Open "Start"->"Programs"->"Anaconda3 (64-Bit)
 press "y" and "Enter"
 exit
 
-(Whenever you want to start the Vocab_Trainer)
+Whenever you want to start the PySVT:
 Open "Start"->"Programs"->"Anaconda3 (64-Bit)
 
-```cd C:\Users/.../Downloads\Vocab_Trainer```
+```cd C:\Users/.../Downloads\PySVT```
 
-(whereever you extracted Vocab_Trainer.zip)
+(whereever you "git clone-ed the PySVT repository)
 
-```python Vocab_Trainer.py --infilename input/simple_vocab_list --col2show "English" --col2ask "Pinyin" --register 0 --is_first_run 1```
+```python PySVT.py --infilename input/simple_vocab_list --col2show "English" --col2ask "Pinyin" --register 0 --is_first_run 1```
 
 i.e.:
-the Python program execute a python scripts names Vocab_Trainer.py with some command line options
+the Python program execute a python script named PySVT.py with some command line options
 for an explanation of the Vocabulary Trainer, type in
 
-```python Vocab_Trainer.py --help```
+```python PySVT.py --help```
 
 # Installation Instructions for MacOS (or similarly, Linux)
 Install https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.pkg
@@ -90,14 +90,25 @@ restart the "Terminal" App again
 press "y" and "Enter"
 exit
 
-(Whenever you want to start the Vocab_Trainer)
+Whenever you want to start the PySVT:
+Open "Start"->"Programs"->"Anaconda3 (64-Bit)
 
-```cd ~/Downloads\Vocab_Trainer (whereever you extracted Vocab_Trainer.zip)```
+```cd ~/Downloads\PySVT ```
 
-```python Vocab_Trainer.py --infilename input/simple_vocab_list --col2show "English" --col2ask "Chinese" --register 0 --is_first_run 1```
+(whereever you "git clone-ed the PySVT repository)
+
+
+Open "Start"->"Programs"->"Anaconda3 (64-Bit)
+
+```cd ~/Downloads\PySVT ```
+
+
+```cd ~/Downloads\PySVT (whereever you extracted PySVT.zip)```
+
+```python PySVT.py --infilename input/simple_vocab_list --col2show "English" --col2ask "Chinese" --register 0 --is_first_run 1```
 
 i.e.:
-the Python program execute a python scripts names Vocab_Trainer.py with some command line options
+the Python program execute a python script named PySVT.py with some command line options
 for an explanation of the Vocabulary Trainer, type in
 
-```python Vocab_Trainer.py --help```
+```python PySVT.py --help```

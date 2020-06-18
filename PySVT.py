@@ -10,7 +10,7 @@
 # It is freely available under the L-GPL license.
 #
 # For help, type in
-# python Vocab_Trainer.py --help
+# python PySVT.py --help
 
 import pandas as pd
 import numpy as np
