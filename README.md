@@ -45,7 +45,7 @@ in connection to their Pinyin pronunciation and their English meaning.
 
 To learn Chinese Mandarine, I recommend searching the internet for "HSK Excel", which will lead you to complete Excel vocabulary lists
 
-# Installation Instructions in for Windows 10
+# Installation Instructions for Windows 10
 Install https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
 
 Open "Start"->"Programs"->"Anaconda3 (64-Bit)
@@ -70,7 +70,7 @@ for an explanation of the Vocabulary Trainer, type in
 
 ```python Vocab_Trainer.py --help```
 
-# Installation Instructions in for MacOS (or similarly, Linux)
+# Installation Instructions for MacOS (or similarly, Linux)
 Install https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.pkg
 for example into ~/miniconda3
 
